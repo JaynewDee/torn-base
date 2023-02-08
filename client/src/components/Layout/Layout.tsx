@@ -1,9 +1,9 @@
 import React from "react";
-import Toolbar from "../Toolbar/Toolbar";
+import Toolbar from "../Toolbar";
 
 const Layout = () => {
   return (
-    <div>
+    <div className="layout-box">
       <Toolbar />
     </div>
   );

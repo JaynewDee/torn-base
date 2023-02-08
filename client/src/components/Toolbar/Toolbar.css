@@ -1,0 +1,6 @@
+.toolbar-container {
+  left: 0;
+  position: absolute;
+  display: flex;
+  flex-flow: column nowrap;
+}
