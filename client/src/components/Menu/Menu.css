@@ -1,0 +1,20 @@
+.menu-root {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+.menu-cat-btn {
+  background: none;
+  border: none;
+  font-size: 0.89rem;
+  font-family: monospace;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-radius: 5px;
+}

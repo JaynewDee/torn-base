@@ -1,10 +1,9 @@
 import React from "react";
 import {
-  GiArtificialHive,
   GiEdgedShield,
   GiCrossedSwords,
-  GiFastArrow,
-  GiMagicPortal,
+  GiFire,
+  GiTigerHead,
   GiHandBag
 } from "react-icons/gi";
 import "./Icons.css";
@@ -12,7 +11,7 @@ import "./Icons.css";
 export const icons = [
   GiCrossedSwords,
   GiEdgedShield,
-  GiFastArrow,
-  GiMagicPortal,
+  GiFire,
+  GiTigerHead,
   GiHandBag
-].map((icon) => icon({ className: "react-icon", size: "3rem" }));
+].map((icon) => icon({ className: "react-icon", size: "2rem" }));
