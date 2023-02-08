@@ -21,11 +21,7 @@ const menuState: MenuState[] = [
 ];
 
 const Category = ({ data }: { data: MenuState }) => {
-  return (
-    <button className="menu-cat-btn" style={{ margin: "0 1.33rem" }}>
-      {data.name.toUpperCase()}
-    </button>
-  );
+  return <button className="menu-cat-btn">{data.name.toUpperCase()}</button>;
 };
 
 const Categories = () =>

@@ -4,17 +4,25 @@
   align-items: center;
   justify-content: flex-start;
   width: 100vw;
+  height: 1.99rem;
   position: absolute;
   top: 0;
   background-color: black;
+  box-shadow: 6px 0px px 6px black;
 }
 
 .menu-cat-btn {
   background: none;
   border: none;
+  margin: 0rem 0.11rem auto 0;
   font-size: 0.89rem;
   font-family: monospace;
   border-left: 1px solid white;
   border-right: 1px solid white;
-  border-radius: 5px;
+  border-radius: 1px;
+}
+
+.menu-cat-btn:hover {
+  cursor: pointer;
+  background-color: rgba(230, 230, 230, 0.3);
 }

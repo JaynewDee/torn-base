@@ -1,6 +1,6 @@
 #toolbar-root {
   position: absolute;
-  top: 15%;
+  top: 0;
   bottom: 0;
   margin: auto 0;
 }
@@ -10,4 +10,7 @@
   position: absolute;
   display: flex;
   flex-flow: column nowrap;
+  justify-content: center;
+  background-color: black;
+  height: 100%;
 }
