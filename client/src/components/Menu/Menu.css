@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   width: 100vw;
   height: 1.99rem;
   position: absolute;
@@ -11,6 +11,9 @@
   box-shadow: 6px 0px px 6px black;
 }
 
+.menu-btn-box {
+  border: 1px solid white;
+}
 .menu-cat-btn {
   background: none;
   border: none;

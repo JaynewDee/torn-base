@@ -25,6 +25,8 @@ const Category = ({ data }: { data: MenuState }) => {
 };
 
 const Categories = () =>
-  menuState.map((category: MenuState) => <>{Category({ data: category })}</>);
+  menuState.map((category: MenuState) => (
+    <div>{Category({ data: category })}</div>
+  ));
 
 export default Categories;
