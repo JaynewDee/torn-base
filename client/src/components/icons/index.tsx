@@ -14,7 +14,7 @@ export const CategoryIcons = [
   GiFire,
   GiTigerHead,
   GiBlackBook
-].map((icon) => icon({ className: "react-icon", size: "2rem" }));
+].map((icon) => icon({ className: "category-icon", size: "2rem" }));
 
 export const SettingsIcon = RxGear({
   className: "settings-icon",
