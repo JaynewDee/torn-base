@@ -4,11 +4,7 @@ import Menu from "./Menu";
 import "./Menu.css";
 
 const index = () => {
-  return (
-    <div className="menu-root">
-      {Modularize({ compName: "menu", Component: Menu })}
-    </div>
-  );
+  return <div>{Modularize({ compName: "menu", Component: Menu })}</div>;
 };
 
 export default index;

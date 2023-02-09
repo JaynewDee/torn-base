@@ -1,8 +1,8 @@
-import React from "react";
+import Title from "./Title";
 import "./Title.css";
 
 const index = () => {
-  return <div>index</div>;
+  return <Title />;
 };
 
 export default index;

@@ -1,5 +1,3 @@
-import React from "react";
-
 interface MenuState {
   name: string;
   options: [];

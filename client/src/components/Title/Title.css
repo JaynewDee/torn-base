@@ -2,8 +2,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  width: 66%;
-  margin: 3rem auto auto;
+  width: 40%;
+  line-height: 150%;
+  opacity: 0.66;
+  margin: 6rem auto auto;
+  pointer-events: none;
 }
 
 .title-grid > div {
@@ -11,5 +14,5 @@
   justify-content: center;
   align-items: center;
   font-size: 133%;
-  letter-spacing: 0.66;
+  width: 1rem;
 }

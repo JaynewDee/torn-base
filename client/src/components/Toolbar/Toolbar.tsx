@@ -1,12 +1,12 @@
-import React from "react";
-import { CategoryIcons } from "../icons";
-import Title from "../Title/Title";
+import { CategoryIcons, SettingsIcon } from "../icons";
+import Title from "../Title";
 
 const Toolbar = () => {
   return (
     <div className="toolbar-container">
       <Title />
-      <div className="toolbar-icons">{CategoryIcons}</div>
+      <div className="category-icons">{CategoryIcons}</div>
+      {SettingsIcon}
     </div>
   );
 };

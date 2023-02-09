@@ -1,4 +1,3 @@
-import React from "react";
 import Categories from "./Category";
 
 const Menu = () => {
@@ -7,7 +6,6 @@ const Menu = () => {
       <div className="menu-btn-box" style={{ display: "flex", width: "100%" }}>
         {Categories()}
       </div>
-      <div></div>
     </>
   );
 };

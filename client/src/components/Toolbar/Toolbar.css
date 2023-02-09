@@ -13,4 +13,11 @@
   justify-content: center;
   background-color: black;
   height: 100%;
+  width: 6rem;
+}
+
+.category-icons {
+}
+.settings-icon {
+  margin: auto auto 3rem;
 }

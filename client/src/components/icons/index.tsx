@@ -1,10 +1,8 @@
-import React from "react";
 import {
   GiEdgedShield,
   GiCrossedSwords,
   GiFire,
   GiTigerHead,
-  GiHandBag,
   GiBlackBook
 } from "react-icons/gi";
 import { RxGear } from "react-icons/rx";
@@ -17,3 +15,8 @@ export const CategoryIcons = [
   GiTigerHead,
   GiBlackBook
 ].map((icon) => icon({ className: "react-icon", size: "2rem" }));
+
+export const SettingsIcon = RxGear({
+  className: "settings-icon",
+  size: "1.33rem"
+});
